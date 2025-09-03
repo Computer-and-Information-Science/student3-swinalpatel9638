@@ -30,7 +30,7 @@ public void setGpa(double newGpa){
 }
 
 public void displayStudent() {
-    System.out.println("The student " + this.name + "has an id of  " + this.id  + "and a gpa of " + this.gpa + "." );
+    System.out.println("The student " + this.name + " has an id of  " + this.id  + "  and a gpa of " + this.gpa + "." );
 }
 
 
@@ -47,9 +47,11 @@ Student student1 = new Student( "Lisa Waddell" , 54321 , 2.5);
 //call the displayStudent method here
         
 student1.displayStudent();
-student.setGpa(3.0);
+
+student1.setGpa(3.0);
 
 System.out.println(student1.getStudentName());
+System.out.println(student1.getStudentGpa());
 
 
 
